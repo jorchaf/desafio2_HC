@@ -4,7 +4,7 @@
 
 # 🖱⌨🖥Desafio Hiring Coders #2 🖥⌨🖱
 
-> > > > > Caminhos do Usuário
+Caminhos do Usuário
 
 A) Página inicial com duas opções de caminho para o usuário seguir. 🔀
 
@@ -18,7 +18,7 @@ E) Na página Cadastrar Cliente, clicando em cadastrar e for um CPF inválido, a
 
 F) Inserir CPF com somente números a mensagem final será exibida.
 
-
+![fluxograma](https://user-images.githubusercontent.com/44127262/126918703-6e29de55-fcb9-44d1-9050-a159b869ca86.png)
 
 
 
