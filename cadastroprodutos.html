@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTAL DE CADASTROS</title>
+    
+</head>
+<body>
+    <header>
+        <h1>
+            Cadastrar Produtos
+            <i class="fas fa-shopping-cart fa-sm"></i>
+        </h1>
+    </header>
+    <div class="container-cadastro">
+        <form action="#" method="post" id="formulario">
+            <div class="form-campos">
+                <div class="label-input">
+                    <label for="categoria">Categoria</label>
+                    <input type="text" name="categoria" id="categoria" placeholder="Categoria" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="marca">Marca</label>
+                    <input type="text" name="marca" id="marca" placeholder="Marca" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="quantidade">Quantidade</label>
+                    <input type="number" name="quantidade" id="quantidade" value="0" min="1" class="input" required />
+                </div>
+            </div>
+            <input type="submit" class="botao" value="Salvar" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <li> Por favor, não esqueça nenhum campo em branco.</li>
+                    <th>Nome</th>
+                    <th>Marca</th>
+                    <th>Quantidade</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-produtos">
+
+            </tbody>
+        </table>
+        <a href="index.html">
+            <button class="botao">Retornar</button>
+        </a>
+    </div>
+    
+    <script src="script.js/scriptproduto.js"></script>
+
+    
+</body>
+</html>

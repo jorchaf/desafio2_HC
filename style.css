@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    padding: 300;
+    margin: 100;
+   
+}
+
+body {
+    background: rgb(236,236,236);
+    background-size:cover;
+    font-family: 'Mukta', sans-serif;
+    
+}
+
+header {
+    background-color: #6e830f;
+    border-radius: 0px;
+    margin-top: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(233, 233, 233);
+   
+}
+
+
+.container-botoes {
+    display: flex;
+    margin-top: 500px;
+    justify-content: center;
+    border-width: 100px;
+    
+}
+
+.container-botoes a {
+    width: fit-content;
+}
+
+.botao {
+    margin: 0 70px;
+    width:100%;
+    padding: 12px 20px;
+    max-width: 200px;
+    background-color: #6e830f;
+    color: rgb(233, 233, 233);
+    border-radius: 6px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: fit-content;
+    
+}
+
+.botao:hover {
+    cursor: pointer;
+   
+   
+}
+
+
+.container-cadastro {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 200px ;
+    box-sizing: border-box;
+}
+
+.container-cadastro a {
+    width: fit-content;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+form#formulario {
+    margin: 0px 20px;
+    color: #6e830f;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.form-campos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.input {
+    border: 1px solid #dfe1e500;
+    border-radius: 6px;
+    outline-width: 0;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.input:hover, :focus {
+    box-shadow: 0 1px 6px #20212447;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.container-cadastro table {
+    margin: 40px 20px;
+    color: rgb(233, 233, 233)
+}
+
+.container-cadastro table td, th {
+    width: 25%;
+}
+
+.container-cadastro table thead {
+    background-color:#6e830f;
+}
+
+.container-cadastro table thead tr th {
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.container-cadastro table tbody {
+    text-align: center;
+    font-weight: 300;
+    background-color:#202020;
+}
+

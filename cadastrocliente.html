@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PORTAL DE CADASTROS</title>
+    
+</head>
+<body>
+    <header>
+        <h1>
+            Cadastrar Clientes
+            <i class="fas fa-user fa-sm"></i>
+        </h1>
+    </header>
+    <div class="container-cadastro">
+        <form action="#" method="post" id="formulario">
+            <div class="form-campos">
+                <div class="label-input">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome e sobrenome" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="cpf">CPF - somente números</label>
+                    <input type="number" name="cpf" id="cpf" placeholder="000.000.000-00" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="meu.email@myemail.com" class="input" required />
+                </div>
+                <div class="label-input">
+                    <label for="telefone">Telefone (somente números)</label>
+                    <input type="number" name="telefone" id="telefone" placeholder="DDD 9999 99999" class="input" required />
+                </div>
+            </div>
+            <input type="submit" class="botao" value="Salvar" />
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <li> Por favor, não esqueça nenhum campo em branco.</li>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-clientes">
+
+            </tbody>
+        </table>
+        <a href="index.html">
+            <button class="botao">Retornar</button>
+        </a>
+    </div>
+    
+    <script src="script.js/scriptcliente.js"></script>
+
+    
+    
+</body>
